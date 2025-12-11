@@ -1,9 +1,7 @@
 body {
-  background-color: #fff;
-  padding:50px;
-  font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  color:#595959;
-  font-weight:400;
+    background-color: #fff9fb; /* 极浅的粉白背景 */
+    color: #ffb7c5; /* 浅粉色文字 */
+    font-family: "Comic Sans MS", "MV Boli", "幼圆", "Microsoft YaHei UI", cursive, sans-serif; /* 圆润可爱的字体 */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -35,12 +33,12 @@ h3, h4, h5, h6 {
 }
 
 a {
-  color:#39c;
+  color:#a0e4c1;
   text-decoration:none;
 }
 
 a:hover {
-  color:#069;
+  color:#aed8ff;
 }
 
 a small {
