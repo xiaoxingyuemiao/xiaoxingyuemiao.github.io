@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!-- 声明这是一个HTML5文档 -->
+<html>
+<!-- HTML文档开始 -->
+
+<head>
+    <!-- 头部区域：存放网页的元信息，不会直接显示在页面上 -->
+    <title>小星月喵 · 入口</title> <!-- 浏览器的标签页上显示这个标题 -->
+
+    <style>
+        /* 这是CSS样式区域，控制网页的样子 */
+
+        /* 1. 设置整个页面的基础样式 */
+        body {
+            background-color: #fff9fb; /* 背景色：和你主站一样的浅粉白 */
+            color: #ffb7c5;            /* 文字颜色：浅粉色 */
+            font-family: "Comic Sans MS", "MV Boli", cursive; /* 字体：和你主站一样的可爱字体 */
+            text-align: center;        /* 文字全部居中对齐 */
+            padding: 50px 20px;        /* 页面的内边距：上下50px，左右20px */
+        }
+
+        /* 2. 设置头像的样式 */
+        .avatar {
+            width: 120px;              /* 头像宽度120像素 */
+            border-radius: 50%;        /* 把正方形图片变成圆形 */
+            border: 5px solid #aed8ff; /* 给头像加一个5px宽的淡蓝色边框 */
+        }
+
+        /* 3. 设置“进入按钮”的样式 */
+        .enter-button {
+            display: inline-block;     /* 让按钮可以设置宽度和高度 */
+            margin-top: 30px;          /* 按钮上方的外边距为30px */
+            padding: 15px 40px;        /* 按钮的内边距：上下15px，左右40px（让按钮变大）*/
+            background: linear-gradient(to right, #ffb7c5, #aed8ff); /* 背景：从左到右的粉到蓝渐变 */
+            color: white;              /* 按钮文字颜色为白色 */
+            text-decoration: none;     /* 去掉链接默认的下划线 */
+            border-radius: 50px;       /* 把按钮的边角变得非常圆（胶囊形状）*/
+            font-size: 1.2em;          /* 字体大小放大1.2倍 */
+            font-weight: bold;         /* 字体加粗 */
+            transition: transform 0.3s;/* 添加一个动画效果，变化过程持续0.3秒 */
+        }
+        /* 3.1 设置鼠标悬停在按钮上时的样式 */
+        .enter-button:hover {
+            transform: scale(1.05);    /* 鼠标放上去时，按钮稍微放大到1.05倍 */
+        }
+
+        /* 4. 设置底部链接区域的样式 */
+        .links {
+            margin-top: 40px;          /* 这个区域上方的外边距为40px */
+        }
+        /* 4.1 设置链接的样式 */
+        .links a {
+            color: #a0e4c1;            /* 链接颜色：薄荷绿 */
+            margin: 0 15px;            /* 链接左右的外边距各15px（让它们分开）*/
+            text-decoration: none;     /* 去掉链接默认的下划线 */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 身体区域：这里的所有内容都会显示在网页上 -->
+
+    <!-- 显示头像，src是图片路径，请检查你的头像文件是不是在这个位置 -->
+    <img src="/assets/images/avatar.png" alt="小星月喵的头像" class="avatar">
+    
+    <h1>✨ 小星月喵 ✨</h1> <!-- 一级标题，最大的字 -->
+    <p>UP主 / 主播 · 成长记录小站</p> <!-- 段落文字 -->
+    
+    <!-- 这是一个自定义的信息区域，你可以在里面写任何想展示的公告 -->
+    <div class="info">
+        <p>📢 <strong>最新动态：</strong>网站正在建设中，但欢迎提前参观！</p>
+        <p>🎯 <strong>近期目标：</strong>上传我的第一个视频日志。</p>
+        <!-- 你可以在这里无限添加新的 <p>段落</p> 来写更多信息 -->
+    </div>
+    
+    <!-- 这是最重要的按钮：点击后会跳转到你的主站（main.html） -->
+    <a href="main.html" class="enter-button">🚪 点击进入我的小窝</a>
+    
+    <!-- 这里是社交链接区域 -->
+    <div class="links">
+        <p>也可以通过这里找到我：</p>
+        <!-- 将【你的B站链接】替换成你真实的B站主页链接 -->
+        <a href="【你的B站链接】" target="_blank">📺 Bilibili</a>
+        <!-- 你可以复制上一行，继续添加微博、YouTube等链接 -->
+        <!-- 例如：<a href="【你的微博链接】" target="_blank">📱 微博</a> -->
+    </div>
+    
+    <!-- 页脚区域，放一些补充信息 -->
+    <footer style="margin-top: 50px; font-size: 0.9em; color: #aaa;">
+        <p>Tips: 在微信搜索框输入 <strong>@星星吧</strong> 就可以找到我啦~</p>
+    </footer>
+</body>
+</html>
+<!-- HTML文档结束 -->
